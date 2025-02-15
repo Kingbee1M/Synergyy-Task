@@ -1,7 +1,7 @@
 "use client"
 
 import ProductCard from "./ProductCard"
-import useProductStore from "@/Stores/useProduct"
+import useProductStore from "../Stores/useProduct";
 export default function MainPage () {
     const { products } = useProductStore();
     return (
