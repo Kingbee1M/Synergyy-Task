@@ -1,5 +1,3 @@
-import { Great_Vibes } from "next/font/google";
-import type { Config } from "tailwindcss";
 
 export default {
   content: [
@@ -40,4 +38,4 @@ export default {
     },
   },
   plugins: [],
-} satisfies Config;
+};
